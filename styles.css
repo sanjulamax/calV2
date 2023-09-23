@@ -1,0 +1,126 @@
+#fullPage {
+
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    border:  1px solid black;
+    background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/rm373batch13-086.jpg?w=1200&h=1200&dpr=1&fit=clip&crop=default&fm=jpg&q=75&vib=3&con=3&usm=15&cs=srgb&bg=F4F4F3&ixlib=js-2.2.1&s=45d036917192481efd9c092b263e1965');
+
+}
+
+.cal{
+
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    border: 1px solid rgb(255, 0, 0);
+    padding: 2%;
+    box-sizing: border-box;
+    align-items: center;
+    background-color: black;
+    box-shadow: 2px 2px 2px rgb(17, 0, 255) , -2px -2px 2px rgb(238, 255, 0);
+    
+
+}
+
+.btn {
+
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: x-large;
+    background-color: rgb(68, 68, 68);
+    color: white;
+    border: none;
+    box-shadow: 1px 1px 3px white , -1px -1px 3px white;
+
+}
+
+#textArea{
+
+   margin: 20px;
+   height: 60px;
+   width: 250px;
+   margin-right: 50px;
+   font-size: 60px;
+   font-family: monospace;
+   text-align: right;
+   border: none;
+   outline: none;
+   backdrop-filter: blur(20px);
+   background: transparent;
+   color: white;
+   
+
+   
+}
+
+
+
+#eql {
+
+    width: 130px ;
+    font-weight: bolder;
+    
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    
+    
+    
+    
+}
+
+#acc{
+
+    color: chartreuse;
+    font-weight: bolder;
+    
+
+
+}
+
+
+#del{
+
+    color: chartreuse;
+    font-weight: bolder;
+}
+
+#slash {
+
+    color: chartreuse;
+    font-weight: bolder;
+    
+}
+
+#multi{
+
+    color: chartreuse;
+    font-weight: bolder;
+}
+
+#minus{
+
+    color: chartreuse;
+    font-weight: bolder;
+}
+
+#plus{
+    
+    color: chartreuse;
+    font-weight: bolder;
+}
+
+#dot{
+
+    color: chartreuse;
+    font-weight: bolder;
+
+
+}
+
+
